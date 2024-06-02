@@ -151,7 +151,7 @@ p {
 
 /* Adobo Section */
 #adobo{
-	background-image: url(adobo.jpg);
+	background-image: url(images/adobo.jpg);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
@@ -243,7 +243,7 @@ p {
 	flex-direction: column;
 	padding: 30px;
 	border-radius: 10px;
-	background-image: url(adobo\ 2.jpg);
+	background-image: url(images/adobo2.jpg);
 	background-size: cover;
 	margin: 10px 5%;
 	position: relative;
@@ -356,7 +356,7 @@ p {
 
 
 /* Keyframes */
-@keyframes hamburger_puls {
+@keyframes adobo_puls {
 	0% {
 		opacity: 1;
 		transform: scale(1);
@@ -497,8 +497,7 @@ p {
 /* Media Query For Desktop */
 @media only screen and (min-width: 1200px) {
 	/* header */
-	#header .hamburger {
-		display: none;
+	#header .adobo: none;
 	}
 	#header .nav-list ul {
 		position: initial;
@@ -522,5 +521,5 @@ p {
 		flex-basis: 22%;
 		margin: 1.5%;
 	}
-}
+
 /* End  Media Query For Desktop */
