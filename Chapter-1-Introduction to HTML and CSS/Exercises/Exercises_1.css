@@ -497,7 +497,7 @@ p {
 /* Media Query For Desktop */
 @media only screen and (min-width: 1200px) {
 	/* header */
-	#header .adobo: none;
+	
 	}
 	#header .nav-list ul {
 		position: initial;
